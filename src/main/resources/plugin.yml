@@ -1,0 +1,14 @@
+name: privateChest
+version: '${project.version}'
+main: org.mino.privatechest.PrivateChest
+api-version: '1.20'
+authors: [icealeximino]
+
+commands:
+  private:
+    usage: /<command>
+    permission: mino.private-storage
+
+permissions:
+  mino.private-storage:
+    default: true
